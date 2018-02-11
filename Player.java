@@ -49,4 +49,33 @@ public class Player {
             this.weight = weight;
         }
     }
+
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLasttName() {
+        return lastName;
+    }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public String toString() {
+        return "[first name="+this.firstName+", last name="+this.lastName+", team="+this.team.toString()+", nationaltiy="+this.nationality+", height="+this.height+", weight="+this.weight+"]";
+    }
 }
