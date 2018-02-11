@@ -34,4 +34,23 @@ public class Team {
     }
 
     
+     public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getFounded() {
+        return founded;
+    }
+
+    public int getChampionships() {
+        return championships;
+    }
+
+    public String toString() {
+        return "[name="+this.name+", founded="+this.founded+", championships="+this.championships+", id="+this.id+"]";
+    }
 }
