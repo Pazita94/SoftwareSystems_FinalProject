@@ -49,8 +49,8 @@ public class Player {
             this.weight = weight;
         }
     }
-
-
+    
+    
     public String getFirstName() {
         return firstName;
     }
